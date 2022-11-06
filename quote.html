@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Professional web design">
+		<meta name="keywords" content="web design, professional">
+		<meta name="author" content="Colton Weatherston">
+		<meta name="robots" content="noindex">
+		<title>Web Design | Get Quote</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<div id="branding">
+					<h1><span class="highlight">Yakoun River </span>Web Development</h1>
+				</div>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="services.html">Services</a></li>
+						<li class="current"><a href="quote.html">Get Quote</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<section id="newsletter">
+			<div class="container">
+				<h1> Subscribe to our Newsletter</h1>
+				<form>
+					<input type="email" placeholder="Enter email..."/>
+					<button type="submit" class="button_1">Subscribe</button>
+				</form>
+			</div>
+		</section>
+		<section id="main">
+			<div class="container">
+				<article id="quote">
+					<h1 class="page-title">Get Quote</h1>
+					<form id="get-quote">
+					<div>
+						<label>First Name: </label>
+						<input name="firstName" id="firstName" type="text" placeholder="First Name" required>
+				
+						<label>Last Name: </label>
+						<input name="lastName" id="lastName" type="text" placeholder="Last Name" required>
+					</div>
+					<div>
+						<label>Email Address: </label>
+						<input name="emailAddress" id="emailAddress" type="email" placeholder="Enter email..." required>
+					</div>
+					<div>
+						<label>Location: </label>
+						<select name="location" id="location">
+						<option value="Victoria">Victoria</option>
+						<option value="Vancouver">Vancouver</option>
+						<option value="Nanaimo">Nanaimo</option>
+						<option value="Prince George">Prince George</option>
+						<option value="Kelowna">Kelowna</option>
+						</select>
+					</div>
+					<div>
+						<label>Services Required: </label><br>
+							<input name="HTML" id="HTML" type="checkbox">
+							<label for="HTML">HTML </label>
+							<input name="CSS" id="CSS" type="checkbox">
+							<label for="CSS">CSS </label>
+							<input name="JavaScript" id="JavaScript" type="checkbox">
+							<label for="JavaScript">JavaScript </label>
+							<input name="JQuery" id="JQuery" type="checkbox">
+							<label for="JQuery">JQuery </label>
+							<input name="MySQL" id="JQuery" type="checkbox">
+							<label for="MySQL">MySQL </label>
+							<input name="PHP" id="PHP" type="checkbox">
+							<label for="PHP">PHP </label>
+							<input name="fullStack" id="fullStack" type="checkbox">
+							<label for="fullStack">Full-Stack </label>
+					</div>
+					<div>
+						<label>Estimated Hours (max of 1000): </label>
+						<input name="estHours" id="estHours" type="number" max="1000">
+					</div>
+					<div>
+						<label for additionalInfo>Additional Information: <br></label>
+						<textarea name="additonalInfo" id="additionalInfo" rows="4" cols="50">Input here...</textarea>
+					</div>
+					<div>
+						<label>Payment Type: <br></label>
+						<input name="paymentType" id="cash" value="cash" type="radio">
+						<label for="cash">Cash (5% discount) <br></label>
+						<input name="paymentType" id="credit" value="credit" type="radio">
+						<label for="credit">Credit </label>
+					</div>
+					<div>
+						<button class="button_1">Get Quote</button>
+					</div>
+					</form>
+				</article>
+			</div>
+		</section>
+		<footer>
+			<h3>Copyright &copy; 2019 - YRC </h3>
+		</footer>
+	</body>
+</html>

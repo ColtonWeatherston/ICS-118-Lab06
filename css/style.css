@@ -1,0 +1,209 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	padding: 0;
+	margin: 0;
+	background-color: #f4f4f4; /* light grey */
+}
+
+/* Global styles */
+.container {
+	width: 80%;
+	margin: auto;
+	overflow: hidden; /* don't want scrolling on overflow */
+}
+
+ul { /* by default ul has padding, so remove padding */
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background: #35424a; /* dark grey colour */
+	color: #ffffff; /* white text for the header */
+	padding-top: 30px;
+	min-height: 70px; /* responsive to different devices */
+	border-bottom: #e8491d 3px solid; /* orange border at bottom of header */
+}
+
+/* anchor tags in header*/
+header a {
+	color: #ffffff; /* white */
+	text-decoration: none; /* no underline */
+	text-transform: uppercase; /* make all uppercase */
+	font-size: 16px;
+}
+
+header li {
+	float: left; /* make horizontal, not vertical */
+	display: inline;
+	padding: 0 20px 0 20px; /* top right bottom left */
+}
+
+header #branding {
+	float: left;
+}
+
+header #branding h1 {
+	margin: 0;
+}
+
+/* float nav to the right */
+header nav {
+	float: right;
+	margin-top: 10px;
+}
+
+header .highlight, header .current a {
+	color: #e8491d;
+	font-weight: bold;
+}
+
+header a:hover {
+	color: #cccccc;
+	font-weight: bold;
+}
+
+
+/* Showcase */
+#showcase {
+	min-height: 400px;
+	background: url('../images/showcase.jpg') no-repeat 0 -500px; /* insert image as background */
+	text-align: center; /* put the text in the middle */
+	color: #ffffff; /* make the text white */
+}
+
+#showcase h1 {
+	margin-top: 100px;
+	font-size: 50px;
+	margin-bottom: 10px;
+}
+
+#showcase p {
+	font-size: 20px;
+}
+
+
+/* Newsletter */
+#newsletter {
+	padding: 15px;
+	color: #ffffff;
+	background: #35424a;
+}
+
+#newsletter h1 {
+	float: left;
+}
+
+#newsletter form {
+	float: right;
+	margin-top: 15px;
+}
+
+#newsletter input {
+	padding: 4px;
+	height: 25px;
+	width: 250px;
+}
+
+.button_1 {
+	height: 38px;
+	background: #e8491d;
+	border: none;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: white;
+}
+
+
+/* Boxes */
+#boxes {
+	margin-top: 20px;
+}
+
+#boxes .box1 {
+	float: left; /* align the boxes from the left */
+	width: 30%; /* allow for three (3) boxes side by side */
+	padding: 10px;
+	text-align: center;
+}
+
+#boxes .box1 img {
+	width: 90px; /* sets a fixed image size */
+}
+
+#boxes .box2 {
+	float: left; /* align the boxes from the left */
+	width: 30%; /* allow for three (3) boxes side by side */
+	padding: 10px;
+	text-align: center;
+}
+
+#boxes .box2 img {
+	width: 90px; /* sets a fixed image size */
+}
+
+#boxes .box3 {
+	float: left; /* align the boxes from the left */
+	width: 30%; /* allow for three (3) boxes side by side */
+	padding: 10px;
+	text-align: center;
+}
+
+#boxes .box3 img {
+	width: 90px; /* sets a fixed image size */
+}
+
+/* Sidebar and Main-col styles only apply to About Us, Services, and Booking pages */
+/* Sidebar */
+aside#sidebar {
+	float: right;
+	width: 30%;
+	margin-top: 10px;
+}
+
+/* Main-col */
+article#main-col {
+	float: left;
+	width: 65%;
+}
+
+/* Unique styling for sidebar */
+.dark {
+	padding: 15px;
+	background: #35424a;
+	color: #ffffff;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/* Styling for services boxes */
+.servicesBox {
+	padding: 10px 10px 10px 10px;
+	margin-bottom: 5px;
+	background-color: #e5e5e5;
+}
+
+/* Quote Form */
+form#get-quote {
+	padding: 10px;
+	border: #bbbbbb solid 1px;
+	background: #dddddd;
+}
+
+form#get-quote label {
+	font-weight: bold;
+}
+
+form#get-quote div {
+	line-height: 2;
+}
+
+footer {
+	padding: 20px;
+	margin-top: 20px;
+	color: #ffffff;
+	background-color: #e8491d;
+	text-align: center;
+}
